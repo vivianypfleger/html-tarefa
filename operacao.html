@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>Sistema - Minhas Tarefas</title>
+</head>
+<body class="container">
+	<h1>Sistema - Minhas Tarefas</h1>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#">:)</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Início <span class="sr-only">(Página atual)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="operacao.html#">Gestão de tarefas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sobre.html#">Sobre</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar tarefa" aria-label="Pesquisar tarefa">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
+  </div>
+</nav>
+
+
+
+<div class="card"> <!--início do card-->
+	<div class="card-body">  
+		<p class="text-right"> <button type="button" class="btn btn-success">+ Incluir tarefa</button>
+		</p>
+		<h3>Lista de Tarefas:</h3>
+	</div>
+
+	
+	<form class="container">
+				
+		<div class="form-check">
+		<input type="checkbox" class="form-check-input" value="">Desenvolver o escopo do projeto<br>
+		<input type="checkbox" class="form-check-input" value="">Criar o cronograma<br>
+		<input type="checkbox" class="form-check-input" value="">Definir a equipe<br>
+		<input type="checkbox" class="form-check-input" value="">Criar os indicadores<br>
+		<input type="checkbox" class="form-check-input" value="">Planejar o orçamento<br>
+		</div>
+		
+		<br>
+		<div class="form-group">
+ 			 <label for="sel1">Informe a operação desejada:</label>
+  			<select class="form-control" id="sel1">
+  				<option>Informe aqui...</option>
+   				<option>Concluir tarefa</option>
+   				<option>Editar tarefa</option>
+    		    <option>Excluir tarefa</option>
+   				<option>Imprimir tarefa</option>
+   			</select>
+		</div> 
+
+		<p class="text-left"> <button type="button" class="btn btn-success">Salvar</button>
+		</p>
+	</form>
+
+</div> <!--fim do card-->
+
+</body>
+
+</html>
